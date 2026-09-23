@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Keep the music folder but ignore actual audio files
+music/*.mp3
+music/*.wav
+music/*.ogg
+music/*.flac
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
